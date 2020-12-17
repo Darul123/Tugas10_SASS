@@ -1,0 +1,48 @@
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 100%;
+        max-width: 1280px;
+        padding: 0 30px;
+    }
+} 
+@media only screen and (max-width: 1199px) {
+    .container {
+        width: 90%;
+    }
+}
+body {
+    color: #000;
+    background: #6eaab9;
+    position: relative;
+    font-family: $base-font;
+}
+::placeholder {
+    color: $ph-color;
+    font-size: $Size-p;
+    font-family: $base-font;
+}
+a {
+    font-size: $Size-p;
+    text-decoration: none;
+    color: #000;
+}
+h1 {
+    font-size: $Size-h1;
+    font-family: $base-font-h1;
+}
+h2 {
+    font-size: $Size-h2;
+}
+p {
+    font-size: $Size-p;
+}
+header, section, footer {
+    margin: 0 5px 0 5px;
+    background: #fff;
+}
+.container {
+    margin: 0 auto;
+}
+.main-content {
+    padding: 25px 0;
+}

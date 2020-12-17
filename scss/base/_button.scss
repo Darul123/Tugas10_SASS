@@ -1,0 +1,29 @@
+.box-title {
+    button {
+        margin: 10px 0;
+        padding: 10px 20px;
+        border: 1px rgba(190, 190, 190, 0.5) solid;
+        background: transparent;
+        font-weight: 200;
+        color: rgba(190, 190, 190);
+    }
+    button:hover {
+        background-color: #bde476;
+        color: #fff;
+        border: 1px rgba(190, 190, 190, 0.0) solid;
+    }
+}
+.subscribe {
+    button {
+        border: 1px rgba(150, 150, 150, 0.7) solid;
+        background: transparent;
+        padding: 10px 20px;
+        font-weight: 200;
+        color: rgba(190, 190, 190);
+    }
+    button:hover {
+        background-color: #bde476;
+        color: #fff;
+        border: 1px rgba(190, 190, 190, 0.0) solid;
+    }
+}

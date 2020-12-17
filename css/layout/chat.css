@@ -1,0 +1,11 @@
+.chat {
+  position: fixed;
+  top: 85%;
+  right: 2.5%;
+  background: #ba5577;
+  border-radius: 50%;
+  z-index: 999; }
+  .chat i {
+    font-size: 30px;
+    padding: 20px;
+    color: #fff; }

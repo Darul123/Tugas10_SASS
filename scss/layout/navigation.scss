@@ -1,0 +1,123 @@
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 0;
+    font-weight: 300;
+}
+.top-left {
+    ul {
+        display: flex;
+
+        li {
+            border-right: 1px solid gray;
+
+            a {
+                font-size: 11px;
+                padding: 0 11px 0 7px;
+            }
+        }
+        li:nth-child(3) {
+            border: none;
+        }
+    }
+}
+.top-right {
+    display: flex;
+    align-items: center;
+
+    ul {
+        display: flex;
+        align-items: center;
+
+        li {
+            border-right: 1px solid rgba(150, 150, 150, 0.5);
+        
+            a {
+                font-size: 11px;
+                padding: 0 5px 0 7px
+            }
+        }
+        li:nth-child(4) {
+            border: none;
+        }
+
+    }
+}
+.phone-number {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 10px; 
+    font-weight: 700;
+
+    i {
+        font-size: 11px;
+        padding: 0 10px 0 0;
+        color: #6eaab9;
+    }
+    p {
+        font-size: 11px; 
+    }
+}
+.ph-hover {
+    text-align: right;
+    cursor: pointer;
+}
+.ph-hover:hover .phone-hover {
+    display: block;
+}
+.phone-hover {
+    position: absolute;
+    right: 0;
+    margin: 10px 60px 0 0;
+    width: 300px;
+    height: auto;
+    display: none;
+    padding: 5px 10px;
+    text-align: right;
+    background: $bg-content;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ph-isi {
+    padding: 5px 10px ;
+
+    h3 {
+        font-size: $Size-p;
+        font-weight: 600;
+        padding: 5px 0;
+    }
+
+    p {
+        font-size: $Size-a;
+    }
+}
+.main-nav {
+    padding: 15px 30px;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        li {
+            a {
+                font-size: $Size-p;
+                font-weight: 400;
+            }
+            a::after {
+                margin: 10px 0 0 0;
+                display:block;
+                content: "";
+                border-bottom: solid 2px #cc0e74;  
+                transform: scaleX(0);  
+                transition: .3s ease-in-out;
+                transform-origin:  0% 50%;
+            }
+            a:hover::after {
+                transform: scaleX(1);
+            }
+        }
+    }
+}

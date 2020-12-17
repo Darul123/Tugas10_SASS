@@ -1,0 +1,14 @@
+.chat {
+    position: fixed;
+    top: 85%;
+    right: 2.5%;
+    background: rgb(186, 85, 119);
+    border-radius: 50%;
+    z-index: 999;
+
+    i {
+        font-size: 30px;
+        padding: 20px;
+        color: #fff;
+    }
+}
